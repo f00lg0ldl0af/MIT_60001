@@ -6,6 +6,9 @@ The [course material](https://ocw.mit.edu/courses/6-0001-introduction-to-compute
 
 <details>
 <summary>Broken Helper Code in pset 5 </summary>
-Was stuck here and resolved the issue thanks to [Lucca Rodrigues](https://github.com/ChromeUniverse/mit-6.0001-psets/tree/main) efforts
+I was stuck and resolved it thanks to Lucca Rodrigues' efforts.
+
+(https://github.com/ChromeUniverse/mit-6.0001-psets/tree/main)
+
 </details>
 
