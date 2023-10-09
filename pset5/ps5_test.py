@@ -246,7 +246,9 @@ class ProblemSet5(unittest.TestCase):
 
 if __name__ == "__main__":
     suite = unittest.TestSuite()
-    suite.addTest(unittest.makeSuite(ProblemSet5NewsStory))
-    suite.addTest(unittest.makeSuite(ProblemSet5))
+    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(ProblemSet5NewsStory))
+    #suite.addTest(unittest.makeSuite(ProblemSet5NewsStory))
+    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(ProblemSet5))
+    #suite.addTest(unittest.makeSuite(ProblemSet5))
     unittest.TextTestRunner(verbosity=2).run(suite)
 
